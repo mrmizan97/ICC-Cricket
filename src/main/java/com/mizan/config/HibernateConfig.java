@@ -1,7 +1,9 @@
 package com.mizan.config;
 
+import com.mizan.model.Country;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
+import org.hibernate.Transaction;
 import org.hibernate.boot.registry.StandardServiceRegistryBuilder;
 import org.hibernate.cfg.Configuration;
 import org.reflections.Reflections;
@@ -88,7 +90,18 @@ public class HibernateConfig {
             tx = session.beginTransaction();
         }
         var result = session.getEntityManagerFactory().createEntityManager().createQuery(query);
+      session.flush();
         tx.commit();
         return result;
+    }
+
+    public void saveObject(Object object) {
+        Session session = getSession();
+        Transaction transaction = session.getTransaction();
+        if (!transaction.isActive()){
+             transaction = session.beginTransaction();
+        }
+        session.save(object);
+        transaction.commit();
     }
 }

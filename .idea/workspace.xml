@@ -4,19 +4,86 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="feddaa3f-e8e6-42d9-b379-37f37a3797f7" name="Default Changelist" comment="" />
+    <list default="true" id="feddaa3f-e8e6-42d9-b379-37f37a3797f7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mizan/controllers/CountryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mizan/enums/PlayerExpertise.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mizan/enums/PlayerStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mizan/model/BaseModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mizan/model/Country.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mizan/model/Event.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mizan/model/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mizan/model/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mizan/model/Series.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mizan/model/Team.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mizan/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mizan/requestDto/CountryResponseDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mizan/responseDto/CountryRequestDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mizan/service/CountryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mizan/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/country/create.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/country/edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/country/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/country/view.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ICC Cricked.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ICC Cricked.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mizan/RootConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mizan/RootConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mizan/config/HibernateConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mizan/config/HibernateConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mizan/controllers/CustomerController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mizan/model/Customer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mizan/service/BaseService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mizan/service/CustomerService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/shared/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/shared/header.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mizan/RootConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mizan/RootConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mizan/config/HibernateConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mizan/config/HibernateConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mizan/model/Customer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mizan/service/BaseService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mizan/service/CustomerService.class" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1xuklSEtJX5prtN7FC63V95sf0I" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views" />
+    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/src/main/java/com/mizan/service/BaseService.java" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.mizan.service" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\Pondit(Java)\ICC Project\ICC Cricked\src\main\webapp\WEB-INF\views" />
+      <recent name="E:\Pondit(Java)\ICC Project\ICC Cricked\src\main\java\com\mizan" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.mizan.responseDto" />
+      <recent name="com.mizan.model" />
     </key>
   </component>
   <component name="RunManager">
@@ -24,9 +91,7 @@
       <option name="adminPort" value="8005" />
       <option name="contextPath" value="/" />
       <option name="docBase" value="$PROJECT_DIR$/src/main/webapp" />
-      <option name="envOptions">
-        <map />
-      </option>
+      <option name="envOptions" />
       <option name="passParentEnvironmentVariables" value="true" />
       <option name="port" value="8080" />
       <option name="tomcatInfo">
@@ -43,7 +108,27 @@
       </method>
     </configuration>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="feddaa3f-e8e6-42d9-b379-37f37a3797f7" name="Default Changelist" comment="" />
+      <created>1631212600608</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1631212600608</updated>
+    </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
